@@ -1,0 +1,318 @@
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar .navbar-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar .navbar-menu ul li {
+  list-style: none;
+  margin-left: 20px;
+  padding: 10px;
+  /* Dropdown Content (Hidden by Default) */
+  /* Links inside the dropdown */
+  /* Change color of dropdown links on hover */
+  /* Show the dropdown menu on hover */
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+}
+
+.navbar .navbar-menu ul li a {
+  text-decoration: none;
+  color: #3e4141;
+}
+
+.navbar .navbar-menu ul li .dropbtn {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar .navbar-menu ul li .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.navbar .navbar-menu ul li .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.navbar .navbar-menu ul li .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.navbar .navbar-menu ul li .dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.navbar .navbar-menu ul li .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navbar .navbar-menu ul li .dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.welcome-sec {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.welcome-sec img {
+  width: 80%;
+}
+
+.welcome-sec span {
+  font-size: 40px;
+}
+
+.welcome-sec p {
+  font-size: 20px;
+}
+
+.welcome-sec ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.welcome-sec ul li {
+  list-style: none;
+}
+
+.welcome-sec .buttons .btn-start {
+  margin-right: 10px;
+  background-color: #0ea2bd;
+}
+
+.welcome-sec .buttons .btn-video i {
+  color: #0ea2bd;
+  font-size: 20px;
+}
+
+.services {
+  margin-top: 50px;
+}
+
+.services .service-box {
+  padding: 10px;
+}
+
+.services .service-box:hover {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.services .icon {
+  font-size: 50px;
+  color: #0ea2bd;
+}
+
+.about {
+  /* Style the buttons inside the tab */
+  /* Style the tab content */
+}
+
+.about .title {
+  text-align: center;
+  padding: 40px;
+}
+
+.about .title p {
+  padding: 20px;
+}
+
+.about img {
+  width: 100%;
+}
+
+.about .tab {
+  overflow: hidden;
+  border-bottom: #0ea2bd;
+}
+
+.about .tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.about .tab button.active {
+  color: #0ea2bd;
+  visibility: visible;
+}
+
+.about .tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+.about .tabcontent li {
+  list-style: none;
+}
+
+.about .tabcontent li i {
+  color: #0ea2bd;
+  font-size: 15px;
+}
+
+.team {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.team .title {
+  padding: 20px;
+  width: 60%;
+  margin-left: 20%;
+}
+
+.team .boxes .box {
+  position: relative;
+}
+
+.team .boxes .box img {
+  width: 100%;
+  border-radius: 5%;
+}
+
+.team .boxes .box .hover-icons {
+  display: none;
+  position: absolute;
+}
+
+.team .boxes .box .hover-icons ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.team .boxes .box .hover-icons ul li {
+  list-style: none;
+}
+
+.team .boxes .box .hover-icons ul li i {
+  color: white;
+  background-color: #0ea2bd;
+  border-radius: 50%;
+}
+
+.team .boxes .box .desc {
+  background-color: white;
+  position: absolute;
+  bottom: -10%;
+  right: 10%;
+  width: 300px;
+  border-radius: 10%;
+}
+
+.team .boxes .box .desc:hover .hover-icons {
+  display: block;
+}
+
+.blog {
+  margin-top: 100px;
+}
+
+.blog .title {
+  text-align: center;
+}
+
+.blog .boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.blog .boxes .box img {
+  width: 100%;
+  border-radius: 5%;
+}
+
+.blog .boxes .box .detail span {
+  color: #0ea2bd;
+}
+
+.blog .boxes .box .detail .btn {
+  color: #0ea2bd;
+}
+
+.contact .title {
+  text-align: center;
+}
+
+.contact .boxes {
+  margin-top: 40px;
+}
+
+.contact .box-info {
+  margin-right: 50px;
+  padding: 20px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.contact .box-info .info-item i {
+  font-size: 20px;
+  color: #0ea2bd;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.contact .form-boxes {
+  margin-top: 0px;
+}
+
+.contact .form-boxes textarea {
+  height: 250px;
+}
+
+.contact .form-boxes .btn {
+  margin-top: 50px;
+  margin-left: 30%;
+  background-color: #0ea2bd;
+  width: 200px;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

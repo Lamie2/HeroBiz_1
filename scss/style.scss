@@ -1,0 +1,290 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+
+    .navbar-menu {
+        ul {
+            display: flex;
+            justify-content: space-between;
+
+            li {
+                list-style: none;
+                margin-left: 20px;
+                padding: 10px;
+                a {
+                    text-decoration: none;
+                    color: rgb(62, 65, 65);
+                }
+                .dropbtn {
+                    background-color: #4caf50;
+                    color: white;
+                    padding: 16px;
+                    font-size: 16px;
+                    border: none;
+                    cursor: pointer;
+                }
+
+                .dropdown {
+                    position: relative;
+                    display: inline-block;
+                }
+
+                /* Dropdown Content (Hidden by Default) */
+                .dropdown-content {
+                    display: none;
+                    position: absolute;
+                    background-color: #f9f9f9;
+                    min-width: 160px;
+                    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                    // z-index: 1;
+                }
+
+                /* Links inside the dropdown */
+                .dropdown-content a {
+                    color: black;
+                    padding: 12px 16px;
+                    text-decoration: none;
+                    display: block;
+                }
+
+                /* Change color of dropdown links on hover */
+                .dropdown-content a:hover {
+                    background-color: #f1f1f1;
+                }
+
+                /* Show the dropdown menu on hover */
+                .dropdown:hover .dropdown-content {
+                    display: block;
+                }
+
+                /* Change the background color of the dropdown button when the dropdown content is shown */
+                .dropdown:hover .dropbtn {
+                    background-color: #3e8e41;
+                }
+            }
+        }
+    }
+}
+
+.welcome-sec {
+    text-align: center;
+    align-items: center;
+    img {
+        width: 80%;
+    }
+
+    span {
+        font-size: 40px;
+    }
+    p {
+        font-size: 20px;
+    }
+    ul {
+        display: flex;
+        justify-content: space-between;
+        li {
+            list-style: none;
+        }
+    }
+
+    .buttons {
+        .btn-start {
+            margin-right: 10px;
+            background-color: #0ea2bd;
+        }
+
+        .btn-video {
+            i {
+                color: #0ea2bd;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+.services {
+    margin-top: 50px;
+    .service-box {
+        padding: 10px;
+        &:hover {
+            transition: all 1s;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+    }
+    .icon {
+        font-size: 50px;
+        color: #0ea2bd;
+    }
+}
+
+.about {
+    .title {
+        p {
+            padding: 20px;
+        }
+        text-align: center;
+        padding: 40px;
+    }
+    img {
+        width: 100%;
+    }
+
+    .tab {
+        overflow: hidden;
+        border-bottom: #0ea2bd;
+    }
+
+    /* Style the buttons inside the tab */
+    .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 17px;
+    }
+
+    .tab button.active {
+        color: #0ea2bd;
+        visibility: visible;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+        display: none;
+        padding: 6px 12px;
+
+        border-top: none;
+
+        li {
+            list-style: none;
+            i {
+                color: #0ea2bd;
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+.team {
+    margin-top: 30px;
+    text-align: center;
+    .title {
+        padding: 20px;
+        width: 60%;
+        margin-left: 20%;
+    }
+    .boxes {
+        .box {
+            position: relative;
+            img {
+                width: 100%;
+                border-radius: 5%;
+            }
+            .hover-icons {
+                display: none;
+                position: absolute;
+                ul {
+                    display: flex;
+                    justify-content: center;
+                    li {
+                        list-style: none;
+                        i {
+                            color: white;
+                            background-color: #0ea2bd;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+            }
+            .desc {
+                background-color: white;
+                position: absolute;
+                bottom: -10%;
+                right: 10%;
+                width: 300px;
+                border-radius: 10%;
+
+                &:hover {
+                    .hover-icons {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.blog {
+    margin-top: 100px;
+    .title {
+        text-align: center;
+    }
+    .boxes {
+        display: flex;
+        justify-content: center;
+        .box {
+            img {
+                width: 100%;
+                border-radius: 5%;
+            }
+            .detail {
+                span {
+                    color: #0ea2bd;
+                }
+                .btn {
+                    color: #0ea2bd;
+                }
+            }
+        }
+    }
+}
+
+.contact {
+    .title {
+        text-align: center;
+    }
+    .boxes{
+        margin-top: 40px;
+    }
+        
+        .box-info{
+            margin-right: 50px;
+            padding: 20px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            .info-item{
+          
+                i{
+                    font-size: 20px;
+                    color: #0ea2bd;
+                    margin-right: 10px;
+                    margin-top: 10px;
+        
+                }
+            }
+        }
+
+        .form-boxes{
+            margin-top: 0px;
+
+            textarea{
+                height: 250px;
+            }
+
+            .btn{
+                margin-top: 50px;
+                margin-left: 30%;
+                background-color: #0ea2bd;
+                width: 200px;
+                color: white;
+            }
+        }
+    }
+    
+    
+    
+
+
+
